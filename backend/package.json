@@ -1,0 +1,20 @@
+{
+  "name": "doomsday-ready-backend",
+  "version": "1.0.0",
+  "description": "Backend API and pure algorithms for Doomsday Ready",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js",
+    "test:algorithms": "node --test tests/algorithms.test.js",
+    "test:api": "node --test tests/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
